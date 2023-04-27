@@ -1,0 +1,20 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000%;
+  padding: 100;
+  margin: 0;
+}
+form {
+  border: 2px solid gray;
+  width: 600px;
+}
+.field-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
