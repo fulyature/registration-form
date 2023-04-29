@@ -1,20 +1,47 @@
-html,
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  margin: 35px;
+  color: red;
+}
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1000%;
-  padding: 100;
-  margin: 0;
+  margin-top: 40px;
 }
 form {
-  border: 2px solid gray;
-  width: 600px;
+  border: 2px solid rgb(65, 65, 181);
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 .field-container {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
+}
+label {
   width: 100%;
-  margin-top: 15px;
+}
+input {
+  width: 100%;
+}
+.last {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 15px;
+}
+.last > input {
+  width: auto;
+  height: 56px;
+  padding: 16px;
+  box-sizing: border-box;
 }
